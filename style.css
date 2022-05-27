@@ -1,0 +1,110 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--body-font);
+  font-size: 18px;
+}
+
+.navbar {
+    padding-top: 2rem;
+  padding-bottom: 1rem;
+  padding-left: 20px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.navbar nav .nav-link {
+padding: 20px;
+text-decoration: none;
+
+}
+
+nav {
+    margin-right: 50rem;
+}
+
+span {
+    vertical-align: middle;
+}
+
+.bell-icon {
+    border-radius: 50%;
+}
+
+.avatar {
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 100%;
+}
+
+.primary {
+    background-color: rgb(133, 34, 225);
+    position: relative;
+    height: 408px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+section {
+    padding-top: 110px;
+    padding-bottom: 107px;
+    padding-left: 20px;
+    color: rgb(223, 220, 220)
+}
+
+.primary .heroimage {
+    position: absolute;
+    top: 0;
+    right: 300px
+}
+
+.primary .hero-content {
+    position: absolute;
+    left: 200px;
+    top: 60px;
+}
+
+.primary .first-btn {
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(87, 219, 87);
+    color: azure;
+    border: none;
+    border-radius: 3px;
+}
+
+.primary .second-btn {
+    font-size: 15px;
+    padding: 10px;
+    background-color: rgb(225, 225, 225);
+    color: black;
+    border: none;
+    border-radius: 3px;
+}
+
+.secondary {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+}
+
+.secondary .icons {
+    background-color: rgb(226, 190, 136);
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.secondary .content {
+    display: flex;
+}
